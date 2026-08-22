@@ -28,7 +28,21 @@ public class Programador extends Funcionario {
 	public void setLinguagem(String linguagem) {
 		this.linguagem = linguagem;
 	}
+    @Override
+	public String getNome() {
+		return "Programador : " + super.getNome() ;
+    }
     
-
-
+    
+    @Override
+    public double getSalario() {
+		return super.getSalario();
+	}
+    
+    public String alteraSalarario() {
+    	return "R$" + this.getSalario();
+    }
+    
+    
+    
 }

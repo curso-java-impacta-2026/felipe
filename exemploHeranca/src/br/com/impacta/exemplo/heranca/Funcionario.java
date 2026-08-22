@@ -6,7 +6,7 @@ public class Funcionario {
     private double salario;
     
     public Funcionario() {
-    	
+    	super();
     }
     
 	public Funcionario(String nome, double salario) {
@@ -28,6 +28,7 @@ public class Funcionario {
 	}
     
     
+	
     
     
 }

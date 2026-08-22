@@ -15,7 +15,8 @@ public class Teste {
 		
 		System.out.println("Dados do programador: ");
 		System.out.println("Nome : " + p.getNome());
-		
+		System.out.println("Salário   :" + p.alteraSalarario());
+		System.out.println("Linguagem : " + p.getLinguagem());
 		
 		
 		
