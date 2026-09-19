@@ -1,26 +1,30 @@
 package br.com.impacta.cap10;
 
+
 public class Executando {
 
     public static void main(String[] args) {
 
-//       Eletrodomestico aparelho;
+//        Eletrodomestico aparelho;
 //
 //        aparelho = new Geladeira();
 //        aparelho.ligar();
+//        System.out.println("Voltagem :" + aparelho.VOLTAGEM);
 //
 //        aparelho = new Televisao();
 //        aparelho.ligar();
 //
 //        aparelho = new Microondas();
 //        aparelho.ligar();
-//    	
-    	 Eletrodomestico tv = new Televisao();
+    	
+    	
+        Eletrodomestico tv = new Televisao();
 
-         tv = new Televisao();
-         tv.ligar();
-         tv.acionarTimer(6);
- //       Eletrodomestico a, b, c, d, e, f, g;
+        tv = new Televisao();
+        tv.ligar();
+        tv.acionarTimer(6);
+    	
+//        Eletrodomestico a, b, c, d, e, f, g;
 //
 //        a = new Geladeira();
 //        b = new Televisao();
@@ -31,6 +35,22 @@ public class Executando {
 //        g = new Microondas();
 //
 //        Eletrodomestico.ligarTudo(a, b, c, d, e, f, g);
-
+    	
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,19 +1,27 @@
 package br.com.impacta.exemplo.heranca;
 
 public class Funcionario {
-	
-	private String nome;
+
+    private String nome;
     private double salario;
-    
-    public Funcionario() {
-    	super();
-    }
-    
-	public Funcionario(String nome, double salario) {
+	       
+    public Funcionario(String nome, double salario) {
 		super();
 		this.nome = nome;
 		this.salario = salario;
 	}
+    
+    public Funcionario(String nome) {
+		super();
+		this.nome = nome;
+	}
+    
+	public Funcionario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	public String getNome() {
 		return nome;
 	}
@@ -26,9 +34,5 @@ public class Funcionario {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-    
-    
-	
-    
     
 }
