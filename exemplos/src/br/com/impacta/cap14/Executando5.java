@@ -10,4 +10,3 @@ public class Executando5 {
         funcao.exibeDados("Manuel", 45, 5500.15);
     }
 }
-

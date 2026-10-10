@@ -9,3 +9,4 @@ public class Executando8 {
         System.out.println("Valor final: " + funcao.execute(1200.0,  8.3));
     }
 }
+

@@ -14,9 +14,8 @@ public class MegasenaUtilitario {
 		}
 		
 		if(numero > 50) {
-		return 61;
+			return 0;
 		}
-		
 		
 		return numero;
 	}

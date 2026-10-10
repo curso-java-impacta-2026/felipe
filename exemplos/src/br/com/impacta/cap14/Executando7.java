@@ -1,6 +1,5 @@
 package br.com.impacta.cap14;
 
-
 public class Executando7 {
 
     public static void main(String[] args) {
