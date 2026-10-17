@@ -6,7 +6,7 @@ public class Teste {
 
 	public static void main(String[] args) {
 
-		Filme filme = new Filme();
+		Filme filme = new Filme();	
 		filme.ativado = true;
 		System.out.println(filme);
 		System.out.println(filme.ativado);
